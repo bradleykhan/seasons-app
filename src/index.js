@@ -22,7 +22,7 @@ class App extends React.Component {
             return <SeasonDisplay lat={this.state.lat} />;
         }
 
-        return <LoadingPage />;
+        return <LoadingPage message="Waiting for location permission..." />;
     }
 }
 
